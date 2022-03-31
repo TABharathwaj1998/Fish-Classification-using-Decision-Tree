@@ -1,0 +1,257 @@
+(venv) (base) PS C:\Users\BHARATHWAJ T A\Fish classified> pip install gunicorn
+Collecting gunicorn
+  Using cached gunicorn-20.1.0-py3-none-any.whl (79 kB)
+Requirement already satisfied: setuptools>=3.0 in c:\users\bharathwaj t a\fish classified\venv\lib\site-packages (from gunicorn) (57.4.0)
+Installing collected packages: gunicorn
+Successfully installed gunicorn-20.1.0
+(venv) (base) PS C:\Users\BHARATHWAJ T A\Fish classified> touch Procfile
+(venv) (base) PS C:\Users\BHARATHWAJ T A\Fish classified> pip freeze > requirements.txt
+(venv) (base) PS C:\Users\BHARATHWAJ T A\Fish classified> git init
+Reinitialized existing Git repository in C:/Users/BHARATHWAJ T A/Fish classified/.git/
+(venv) (base) PS C:\Users\BHARATHWAJ T A\Fish classified> git add .
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn-20.1.0.dist-info/INSTALLER.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn-20.1.0.dist-info/LICENSE.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn-20.1.0.dist-info/METADATA.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn-20.1.0.dist-info/WHEEL.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn-20.1.0.dist-info/entry_points.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn-20.1.0.dist-info/top_level.txt.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn/__init__.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn/__main__.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn/app/__init__.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn/app/base.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn/app/pasterapp.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn/app/wsgiapp.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn/arbiter.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn/config.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn/debug.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn/errors.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn/glogging.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn/http/__init__.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn/http/body.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn/http/errors.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn/http/message.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn/http/parser.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn/http/unreader.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn/http/wsgi.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn/instrument/statsd.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn/pidfile.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn/reloader.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn/sock.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn/systemd.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn/util.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn/workers/__init__.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn/workers/base.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn/workers/base_async.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn/workers/geventlet.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn/workers/ggevent.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn/workers/gthread.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn/workers/gtornado.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn/workers/sync.py.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in venv/Lib/site-packages/gunicorn/workers/workertmp.py.
+The file will have its original line endings in your working directory
+(venv) (base) PS C:\Users\BHARATHWAJ T A\Fish classified> git commit -am 'Procfit'
+[main f595196] Procfit
+ 78 files changed, 8185 insertions(+)
+ rewrite requirements.txt (100%)
+ create mode 100644 venv/Lib/site-packages/gunicorn-20.1.0.dist-info/INSTALLER
+ create mode 100644 venv/Lib/site-packages/gunicorn-20.1.0.dist-info/LICENSE
+ create mode 100644 venv/Lib/site-packages/gunicorn-20.1.0.dist-info/METADATA
+ create mode 100644 venv/Lib/site-packages/gunicorn-20.1.0.dist-info/RECORD
+ create mode 100644 venv/Lib/site-packages/gunicorn-20.1.0.dist-info/REQUESTED
+ create mode 100644 venv/Lib/site-packages/gunicorn-20.1.0.dist-info/WHEEL
+ create mode 100644 venv/Lib/site-packages/gunicorn-20.1.0.dist-info/entry_points.txt
+ create mode 100644 venv/Lib/site-packages/gunicorn-20.1.0.dist-info/top_level.txt
+ create mode 100644 venv/Lib/site-packages/gunicorn/__init__.py
+ create mode 100644 venv/Lib/site-packages/gunicorn/__main__.py
+ create mode 100644 venv/Lib/site-packages/gunicorn/__pycache__/__init__.cpython-39.pyc
+ create mode 100644 venv/Lib/site-packages/gunicorn/__pycache__/__main__.cpython-39.pyc
+ create mode 100644 venv/Lib/site-packages/gunicorn/__pycache__/arbiter.cpython-39.pyc
+ create mode 100644 venv/Lib/site-packages/gunicorn/__pycache__/config.cpython-39.pyc
+ create mode 100644 venv/Lib/site-packages/gunicorn/__pycache__/debug.cpython-39.pyc
+ create mode 100644 venv/Lib/site-packages/gunicorn/__pycache__/errors.cpython-39.pyc
+ create mode 100644 venv/Lib/site-packages/gunicorn/__pycache__/glogging.cpython-39.pyc
+ create mode 100644 venv/Lib/site-packages/gunicorn/__pycache__/pidfile.cpython-39.pyc
+ create mode 100644 venv/Lib/site-packages/gunicorn/__pycache__/reloader.cpython-39.pyc
+ create mode 100644 venv/Lib/site-packages/gunicorn/__pycache__/sock.cpython-39.pyc
+ create mode 100644 venv/Lib/site-packages/gunicorn/__pycache__/systemd.cpython-39.pyc
+ create mode 100644 venv/Lib/site-packages/gunicorn/__pycache__/util.cpython-39.pyc
+ create mode 100644 venv/Lib/site-packages/gunicorn/app/__init__.py
+ create mode 100644 venv/Lib/site-packages/gunicorn/app/__pycache__/__init__.cpython-39.pyc
+ create mode 100644 venv/Lib/site-packages/gunicorn/app/__pycache__/base.cpython-39.pyc
+ create mode 100644 venv/Lib/site-packages/gunicorn/app/__pycache__/pasterapp.cpython-39.pyc
+ create mode 100644 venv/Lib/site-packages/gunicorn/app/__pycache__/wsgiapp.cpython-39.pyc
+ create mode 100644 venv/Lib/site-packages/gunicorn/app/base.py
+ create mode 100644 venv/Lib/site-packages/gunicorn/app/pasterapp.py
+ create mode 100644 venv/Lib/site-packages/gunicorn/app/wsgiapp.py
+ create mode 100644 venv/Lib/site-packages/gunicorn/arbiter.py
+ create mode 100644 venv/Lib/site-packages/gunicorn/config.py
+ create mode 100644 venv/Lib/site-packages/gunicorn/debug.py
+ create mode 100644 venv/Lib/site-packages/gunicorn/errors.py
+ create mode 100644 venv/Lib/site-packages/gunicorn/glogging.py
+ create mode 100644 venv/Lib/site-packages/gunicorn/http/__init__.py
+ create mode 100644 venv/Lib/site-packages/gunicorn/http/__pycache__/__init__.cpython-39.pyc
+ create mode 100644 venv/Lib/site-packages/gunicorn/http/__pycache__/body.cpython-39.pyc
+ create mode 100644 venv/Lib/site-packages/gunicorn/http/__pycache__/errors.cpython-39.pyc
+ create mode 100644 venv/Lib/site-packages/gunicorn/http/__pycache__/message.cpython-39.pyc
+ create mode 100644 venv/Lib/site-packages/gunicorn/http/__pycache__/parser.cpython-39.pyc
+ create mode 100644 venv/Lib/site-packages/gunicorn/http/__pycache__/unreader.cpython-39.pyc
+ create mode 100644 venv/Lib/site-packages/gunicorn/http/__pycache__/wsgi.cpython-39.pyc
+ create mode 100644 venv/Lib/site-packages/gunicorn/http/body.py
+ create mode 100644 venv/Lib/site-packages/gunicorn/http/errors.py
+ create mode 100644 venv/Lib/site-packages/gunicorn/http/message.py
+ create mode 100644 venv/Lib/site-packages/gunicorn/http/parser.py
+ create mode 100644 venv/Lib/site-packages/gunicorn/http/unreader.py
+ create mode 100644 venv/Lib/site-packages/gunicorn/http/wsgi.py
+ create mode 100644 venv/Lib/site-packages/gunicorn/instrument/__init__.py
+ create mode 100644 venv/Lib/site-packages/gunicorn/instrument/__pycache__/__init__.cpython-39.pyc
+ create mode 100644 venv/Lib/site-packages/gunicorn/instrument/__pycache__/statsd.cpython-39.pyc
+ create mode 100644 venv/Lib/site-packages/gunicorn/instrument/statsd.py
+ create mode 100644 venv/Lib/site-packages/gunicorn/pidfile.py
+ create mode 100644 venv/Lib/site-packages/gunicorn/reloader.py
+ create mode 100644 venv/Lib/site-packages/gunicorn/sock.py
+ create mode 100644 venv/Lib/site-packages/gunicorn/systemd.py
+ create mode 100644 venv/Lib/site-packages/gunicorn/util.py
+ create mode 100644 venv/Lib/site-packages/gunicorn/workers/__init__.py
+ create mode 100644 venv/Lib/site-packages/gunicorn/workers/__pycache__/__init__.cpython-39.pyc
+ create mode 100644 venv/Lib/site-packages/gunicorn/workers/__pycache__/base.cpython-39.pyc
+ create mode 100644 venv/Lib/site-packages/gunicorn/workers/__pycache__/base_async.cpython-39.pyc
+ create mode 100644 venv/Lib/site-packages/gunicorn/workers/__pycache__/geventlet.cpython-39.pyc
+ create mode 100644 venv/Lib/site-packages/gunicorn/workers/__pycache__/ggevent.cpython-39.pyc
+ create mode 100644 venv/Lib/site-packages/gunicorn/workers/__pycache__/gthread.cpython-39.pyc
+ create mode 100644 venv/Lib/site-packages/gunicorn/workers/__pycache__/gtornado.cpython-39.pyc
+ create mode 100644 venv/Lib/site-packages/gunicorn/workers/__pycache__/sync.cpython-39.pyc
+ create mode 100644 venv/Lib/site-packages/gunicorn/workers/__pycache__/workertmp.cpython-39.pyc
+ create mode 100644 venv/Lib/site-packages/gunicorn/workers/base.py
+ create mode 100644 venv/Lib/site-packages/gunicorn/workers/base_async.py
+ create mode 100644 venv/Lib/site-packages/gunicorn/workers/geventlet.py
+ create mode 100644 venv/Lib/site-packages/gunicorn/workers/ggevent.py
+ create mode 100644 venv/Lib/site-packages/gunicorn/workers/gthread.py
+ create mode 100644 venv/Lib/site-packages/gunicorn/workers/gtornado.py
+ create mode 100644 venv/Lib/site-packages/gunicorn/workers/sync.py
+ create mode 100644 venv/Lib/site-packages/gunicorn/workers/workertmp.py
+ create mode 100644 venv/Scripts/gunicorn.exe
+(venv) (base) PS C:\Users\BHARATHWAJ T A\Fish classified> heroku login
+ »   Warning: heroku update available from 7.59.4 to 7.60.0.
+heroku: Press any key to open up the browser to login or q to exit:
+Opening browser to https://cli-auth.heroku.com/auth/cli/browser/197b751b-eea1-47a3-8fa3-1e9d906151db?requestor=SFMyNTY.g2gDbQAAAAo3Ni42NC4zMC41bgYAaP1U3X8BYgABUYA.4lp1R7oHKMZNpgENDX0yO77ne7ALWbERqUbrjUonDZk
+Logging in... done
+Logged in as ta.bharathwaj98@gmail.com
+(venv) (base) PS C:\Users\BHARATHWAJ T A\Fish classified> heroku create
+ »   Warning: heroku update available from 7.59.4 to 7.60.0.
+Creating app... done, ⬢ immense-crag-64163
+https://immense-crag-64163.herokuapp.com/ | https://git.heroku.com/immense-crag-64163.git
+(venv) (base) PS C:\Users\BHARATHWAJ T A\Fish classified> heroku rename fishClassifyUsingDecisionTree
+ »   Warning: heroku update available from 7.59.4 to 7.60.0.
+Renaming immense-crag-64163 to fishClassifyUsingDecisionTree... !
+ !    Name must start with a letter, end with a letter or digit and can only contain lowercase letters,
+ !    digits, and dashes.
+(venv) (base) PS C:\Users\BHARATHWAJ T A\Fish classified> git push heroku main
+Enumerating objects: 7160, done.
+Counting objects: 100% (7160/7160), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6480/6480), done.
+Writing objects: 100% (7160/7160), 63.56 MiB | 20.71 MiB/s, done.
+Total 7160 (delta 613), reused 7065 (delta 605), pack-reused 0
+remote: Compressing source files... done.
+remote: Building source:
+remote:
+remote: -----> Building on the Heroku-20 stack
+remote: -----> Determining which buildpack to use for this app
+remote: -----> Python app detected
+remote: -----> No Python version was specified. Using the buildpack default: python-3.10.4
+remote:        To use a different version, see: https://devcenter.heroku.com/articles/python-runtimes
+remote: -----> Installing python-3.10.4
+remote: -----> Installing pip 21.3.1, setuptools 57.5.0 and wheel 0.37.0
+remote: -----> Installing SQLite3
+remote: -----> Installing requirements with pip
+remote:        Collecting click==8.1.0
+remote:          Downloading click-8.1.0-py3-none-any.whl (96 kB)
+remote:        Collecting colorama==0.4.4
+remote:          Downloading colorama-0.4.4-py2.py3-none-any.whl (16 kB)
+remote:        Collecting Flask==2.1.0
+remote:          Downloading Flask-2.1.0-py3-none-any.whl (95 kB)
+remote:        Collecting gunicorn==20.1.0
+remote:          Downloading gunicorn-20.1.0-py3-none-any.whl (79 kB)
+remote:        Collecting importlib-metadata==4.11.3
+remote:          Downloading importlib_metadata-4.11.3-py3-none-any.whl (18 kB)
+remote:        Collecting itsdangerous==2.1.2
+remote:          Downloading itsdangerous-2.1.2-py3-none-any.whl (15 kB)
+remote:        Collecting Jinja2==3.1.1
+remote:          Downloading Jinja2-3.1.1-py3-none-any.whl (132 kB)
+remote:        Collecting joblib==1.1.0
+remote:          Downloading joblib-1.1.0-py2.py3-none-any.whl (306 kB)
+remote:        Collecting MarkupSafe==2.1.1
+remote:          Downloading MarkupSafe-2.1.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (25 kB)
+remote:        Collecting numpy==1.22.3
+remote:          Downloading numpy-1.22.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.8 MB)
+remote:        Collecting scikit-learn==1.0.2
+remote:          Downloading scikit_learn-1.0.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (26.5 MB)
+remote:        Collecting scipy==1.8.0
+remote:          Downloading scipy-1.8.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (42.3 MB)
+remote:        Collecting sklearn==0.0
+remote:          Downloading sklearn-0.0.tar.gz (1.1 kB)
+remote:          Preparing metadata (setup.py): started
+remote:          Preparing metadata (setup.py): finished with status 'done'
+remote:        Collecting threadpoolctl==3.1.0
+remote:          Downloading threadpoolctl-3.1.0-py3-none-any.whl (14 kB)
+remote:        Collecting Werkzeug==2.1.0
+remote:          Downloading Werkzeug-2.1.0-py3-none-any.whl (224 kB)
+remote:        Collecting zipp==3.7.0
+remote:          Downloading zipp-3.7.0-py3-none-any.whl (5.3 kB)
+remote:        Building wheels for collected packages: sklearn
+remote:          Building wheel for sklearn (setup.py): started
+remote:          Building wheel for sklearn (setup.py): finished with status 'done'
+remote:          Created wheel for sklearn: filename=sklearn-0.0-py2.py3-none-any.whl size=1309 sha256=d5d808804ea77122e67854276158fe83ccc348f471b7e4cdcac8fb095eefb114
+remote:          Stored in directory: /tmp/pip-ephem-wheel-cache-9g32hxle/wheels/9b/13/01/6f3a7fd641f90e1f6c8c7cded057f3394f451f340371c68f3d
+remote:        Successfully built sklearn
+remote:        Installing collected packages: numpy, threadpoolctl, scipy, MarkupSafe, joblib, zipp, Werkzeug, scikit-learn, Jinja2, itsdangerous, click, sklearn, importlib-metadata, gunicorn, Flask, colorama
+remote:        Successfully installed Flask-2.1.0 Jinja2-3.1.1 MarkupSafe-2.1.1 Werkzeug-2.1.0 click-8.1.0 colorama-0.4.4 gunicorn-20.1.0 importlib-metadata-4.11.3 itsdangerous-2.1.2 joblib-1.1.0 numpy-1.22.3 scikit-learn-1.0.2 scipy-1.8.0 sklearn-0.0 threadpoolctl-3.1.0 zipp-3.7.0
+remote: -----> Discovering process types
+remote:        Procfile declares types -> web
+remote:
+remote: -----> Compressing...
+remote:        Done: 222.1M
+remote: -----> Launching...
+remote:        Released v3
+remote:        https://immense-crag-64163.herokuapp.com/ deployed to Heroku
+remote:
+remote: Verifying deploy... done.
+To https://git.heroku.com/immense-crag-64163.git
